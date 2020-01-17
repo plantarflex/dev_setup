@@ -102,7 +102,7 @@ fi
 
 
 # git
-alias gitt='echo "8a5976995b28248693fdb84ad7670fa294a1f25a" | pbcopy'
+alias gitt='echo "INSERT GITHUB TOKEN" | pbcopy'
 
 # docker
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
