@@ -102,10 +102,10 @@ fi
 
 
 # git (macOS)
-#alias gitt='echo "INSERT GITHUB TOKEN" | pbcpy'
+#alias gitt='echo "<INSERT GITHUB TOKEN>" | pbcopy'
 
 # git (linux)
-alias gitt='echo "INSERT GITHUB TOKEN" | xclip -selection clipboard'
+alias gitt='echo "<INSERT GITHUB TOKEN>" | xclip -selection clipboard'
 
 # docker
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
