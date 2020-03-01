@@ -1,5 +1,3 @@
-brew install docker
-brew install docker-compose
 brew install bash-completion
 sudo curl -L https://raw.githubusercontent.com/docker/compose/1.25.0/contrib/completion/bash/docker-compose -o /usr/local/etc/bash_completion.d/docker-compose
 etc=/Applications/Docker.app/Contents/Resources/etc
