@@ -80,6 +80,7 @@ fi
 # some more ls aliases
 export LSCOLORS=ExFxBxDxCxegedabagacad
 export PATH=/usr/local/bin:$PATH
+export LANG=en_US
 #CAfxcxdxBxegecabagacad" 
 alias ll='ls -alGFH'
 alias la='ls -A'
