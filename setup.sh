@@ -1,3 +1,3 @@
-cp .prettierrc ~/
+cd linux
 ./bashsetup.sh
 ./vimsetup.sh
