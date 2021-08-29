@@ -4,19 +4,11 @@
   "editor.minimap.enabled": false,
   "prettier.semi": false,
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.formatOnSave": true
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.formatOnSave": true
   },
   "editor.codeActionsOnSave": {
@@ -27,7 +19,7 @@
   "prettier.jsxSingleQuote": true,
   "window.restoreFullscreen": true,
   "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
+    "*.ipynb": "jupyter-notebook"
   },
   "[python]": {
     "editor.tabSize": 4,
@@ -36,5 +28,15 @@
   },
   "python.languageServer": "Microsoft",
   "editor.defaultFormatter": "ms-python.python",
-  "python.formatting.provider": "black"
+  "python.formatting.provider": "black",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "debug.javascript.resourceRequestOptions": {
+  
+  },
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.alwaysShowStatus": true
 }
