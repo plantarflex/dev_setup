@@ -2,7 +2,7 @@
   "editor.fontSize": 16,
   "emmet.showExpandedAbbreviation": "never",
   "editor.minimap.enabled": false,
-  "prettier.semi": false,
+  "window.restoreFullscreen": true,
   "[javascript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.formatOnSave": true
@@ -16,27 +16,24 @@
     "source.fixAll.tslint": true,
     "source.fixAll.stylelint": true
   },
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.alwaysShowStatus": true,
   "prettier.jsxSingleQuote": true,
-  "window.restoreFullscreen": true,
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter-notebook"
-  },
+  "prettier.semi": false,
   "[python]": {
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
   },
-  "python.languageServer": "Microsoft",
-  "editor.defaultFormatter": "ms-python.python",
-  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.flake8Enabled": true,
   "notebook.cellToolbarLocation": {
     "default": "right",
     "jupyter-notebook": "left"
   },
-  "debug.javascript.resourceRequestOptions": {
-  
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
   },
-  "eslint.format.enable": true,
-  "eslint.lintTask.enable": true,
-  "eslint.alwaysShowStatus": true
 }
