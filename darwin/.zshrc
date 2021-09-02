@@ -18,4 +18,6 @@ parse_git_branch() {
 export PS1="%B%F{green}%n@%m%f%b:%B%F{blue}%~ %F{red}(parse_git_branch)%F{reset_color}
 $ "
 
-
+# docker autocompletion
+fpath=(~/.zsh/completion $fpath)
+autoload -Uz compinit && compinit -i
