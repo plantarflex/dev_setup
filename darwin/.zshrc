@@ -1,6 +1,6 @@
 export BASH_SILENCE_DEPRECATION_WARNING=1
 export LANG="en_US.UTF-8"
-#export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin::$PWD:$PATH
 
 autoload -U colors && colors
 
