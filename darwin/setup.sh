@@ -1,6 +1,8 @@
-cp .prettierrc ~/
-cp .zshrc ~/.zshrc
+cp .bashrc ~/.bashrc
 cp .vimrc ~/.vimrc
+
 ./python.sh
-./vscode_setup.sh
 ./docker_autocomplete.sh
+
+cp .prettierrc ~/
+./vscode_setup.sh
