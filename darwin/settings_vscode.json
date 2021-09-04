@@ -16,6 +16,8 @@
     "source.fixAll.tslint": true,
     "source.fixAll.stylelint": true
   },
+  "eslint.nodePath": "/usr/local/lib/node_modules",
+  "eslint.runtime": "/usr/local/bin/node",
   "eslint.format.enable": true,
   "eslint.lintTask.enable": true,
   "eslint.alwaysShowStatus": true,
@@ -26,9 +28,11 @@
     "editor.insertSpaces": true,
     "editor.formatOnSave": true,
   },
+  "python.languageServer": "None",
   "python.linting.enabled": true,
   "python.linting.lintOnSave": true,
   "python.linting.flake8Enabled": true,
+  "python.linting.flake8Path": "~/Library/Python/3.9/bin/flake8",
   "python.linting.flake8Args": [
     "--max-line-length=120",
     "--ignore=W291",
@@ -40,4 +44,5 @@
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
+  "python.defaultInterpreterPath": "python3",
 }
