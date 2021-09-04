@@ -1,4 +1,3 @@
 cp settings_vscode.json ~/Library/Application\ Support/Code/User/settings.json
-pip3 install flake8
-#TODO: node version maintenance...
+python3 -m pip install -U flake8
 sudo npm install -g eslint@4.x babel-eslint@8 eslint-plugin-react
