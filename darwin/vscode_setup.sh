@@ -1,3 +1,4 @@
+# install visual studio code before running this script
 cp settings_vscode.json ~/Library/Application\ Support/Code/User/settings.json
 python3 -m pip install -U autopep8
 python3 -m pip install -U flake8
