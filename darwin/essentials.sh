@@ -3,7 +3,7 @@
 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bashrc
 
 # python to /usr/local/bin (check out bashrc)
-brew install python3.9
+brew install python@3.9
 
 # node
 brew install node
